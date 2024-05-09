@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    background-image: url("background.jpg");
+    background-position: center center;
+    background-size: max(1000px,100vw); /*zoom in jo h wo 100px tk hii hoga*/
+    height: 80vh;
+    width:100%;
+    position: relative;
+    
+}
+.main .box{
+    height: 80vh;
+    width:100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    
+}
+.nav{
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.hero{
+    margin-top: -100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 23px;
+}
+
+.hero> :first-child{                      /*Immediate first child code*/
+    font-weight: 900;
+    font-size: 40px;
+}
+.hero:nth-child(2){
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.btn{
+    padding: 10px 15px;
+    font-weight: 400;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    
+}
+.btn-red{
+    padding: 10px 24px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+.btn-red-sm{
+    padding: 10px 8px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+}
+.main input{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.seperation{
+    height: 12px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.84;
+    margin-top: -10px;
+}
+.nav2{
+    background-color: black;
+    height: 65vh;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    max-width: 70vw;
+}
+.one{
+    align-content: center;
+    
+}
+.secimg{
+    width: 30vw;
+    position: relative;
+   
+}
+.secimg img{
+   width: 40vw;
+   position: relative;
+   z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    
+}
+.o1{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 20px;
+} 
+.o2{
+    font-size: 25px;
+    
+    padding: 20px;
+} 
+.line{
+    height: 9px;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.39;
+    margin-top: -10px;
+}
+.nav3{
+    background-color: black;
+    height: 65vh;
+    color: white;
+}
+.t1{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 20px;
+} 
+.t2{
+    font-size: 25px;
+    padding: 20px;
+} 
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    max-width: 90vw;
+}
+.two{
+    align-self: center;
+}
+.line3{
+    height: 9px;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.39;
+    margin-top: -10px;
+}
+.nav4{
+    background-color: black;
+    height: 70vh;
+    color: white;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    max-width: 70vw;
+   
+}
+.three{
+    align-content: center;
+    
+}
+.fthimg{
+    width: 30vw;
+    position: relative;
+   
+}
+.fthimg img{
+   width: 50vw;
+   position: relative;
+   z-index: 10;
+   left: -5vw;
+}
+.fthimg video{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    
+}
+.th1{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 20px;
+} 
+.th2{
+    font-size: 25px;
+    padding: 20px;
+} 
+.nav5{
+    background-color: black;
+    height: 65vh;
+    color: white;
+}
+.f1{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 20px;
+} 
+.f2{
+    font-size: 25px;
+    padding: 20px;
+} 
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    max-width: 90vw;
+}
+.four{
+    align-self: center;
+}
